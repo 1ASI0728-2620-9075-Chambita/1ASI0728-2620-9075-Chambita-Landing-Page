@@ -1,0 +1,12 @@
+{
+  "name": "chambita-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page of Chambita in English and Latin American Spanish",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "npx --yes serve@14.2.4 -l 5600 ."
+  },
+  "license": "UNLICENSED"
+}

@@ -143,3 +143,5 @@ setUpMenu();
 setUpVideos();
 applyLanguage();
 scrollToLegalAnchor();
+// Web fonts change the height of the text, so the anchor is applied again once they are loaded.
+document.fonts?.ready.then(scrollToLegalAnchor);
